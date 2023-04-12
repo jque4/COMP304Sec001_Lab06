@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">compose expandable list</string>
+
+    //Course descriptions
+    <string name="programming_3">Learners in this course will gain hands-on experience by applying knowledge of network
+        protocols and components to the development and maintenance of software applications. Coursework emphasizes
+        network stacks, socket-based network applications, software-defined networks, and developing client applications
+        that interface with various intelligent devices.</string>
+    <string name="networking">Learners in this course will gain hands-on experience by applying knowledge of network protocols
+        and components to the development and maintenance of software applications. Coursework emphasizes network stacks,
+        socket-based network applications, software-defined networks, and developing client applications that interface with various intelligent devices.</string>
+</resources>
