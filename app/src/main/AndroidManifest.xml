@@ -12,7 +12,6 @@
         android:theme="@style/Theme.ExpandableList">
         <activity
             android:name="com.skyyo.expandablelist.MainActivity"
-            android:label="@string/app_name"
             android:exported="true"
             android:theme="@style/Theme.ExpandableList.NoActionBar">
             <intent-filter>
@@ -20,6 +19,21 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.skyyo.expandablelist.SETActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ExpandableList.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.skyyo.expandablelist.HITActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ExpandableList.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.skyyo.expandablelist.GPActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ExpandableList.NoActionBar">
         </activity>
     </application>
 

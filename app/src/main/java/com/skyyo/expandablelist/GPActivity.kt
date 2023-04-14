@@ -7,25 +7,19 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import com.skyyo.expandablelist.theme.AppTheme
-import com.skyyo.expandablelist.cards.ProgramsScreen
-import com.skyyo.expandablelist.cards.ProgramsViewModel
+import com.skyyo.expandablelist.cards.CardsScreen
+import com.skyyo.expandablelist.cards.CardsViewModel
 
-class MainActivity : AppCompatActivity() {
-    private val programsViewModel by viewModels<ProgramsViewModel>()
+class GPActivity : AppCompatActivity() {
+    private val cardsViewModel by viewModels<CardsViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        context = this
         setContent {
             AppTheme {
-                Surface(color = MaterialTheme.colors.background) { ProgramsScreen(programsViewModel) }
+                Surface(color = MaterialTheme.colors.background) { CardsScreen(cardsViewModel) }
             }
         }
-    }
-
-    companion object {
-        lateinit var context: MainActivity
-            private set
     }
 }
 
